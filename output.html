@@ -1,0 +1,668 @@
+
+        <html>
+        <head>
+        <title>NetApp Command Report</title>
+
+        <style>
+        body{
+            font-family:Arial;
+            background:#f4f8fb;
+            padding:20px;
+        }
+
+        .main-header{
+            background:#0f172a;
+            color:white;
+            padding:20px;
+            border-radius:12px;
+            font-size:32px;
+            font-weight:bold;
+            margin-bottom:30px;
+        }
+
+        .cluster-box{
+            background:white;
+            padding:25px;
+            margin-bottom:25px;
+            border-radius:15px;
+            box-shadow:0px 4px 15px rgba(0,0,0,0.2);
+        }
+
+        .cluster-title{
+            font-size:28px;
+            font-weight:bold;
+            color:#1e3a8a;
+            margin-bottom:20px;
+        }
+
+        .command-title{
+            background:#2563eb;
+            color:white;
+            padding:12px;
+            border-radius:8px;
+            font-weight:bold;
+            margin-top:20px;
+            margin-bottom:10px;
+        }
+
+        pre{
+            background:black;
+            color:#00ff00;
+            padding:20px;
+            border-radius:10px;
+            overflow-x:auto;
+            white-space:pre-wrap;
+            font-size:14px;
+        }
+        </style>
+
+        </head>
+        <body>
+
+        <div class="main-header">
+        NetApp Command Report
+        </div>
+        
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster1</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.41GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.69GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.64MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster2</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.49GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster3</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.40GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.68GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.63MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster4</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.49GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster5</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.40GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.68GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.61MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster6</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.48GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster7</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.40GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.68GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.61MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster8</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.48GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster9</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.40GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.68GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.60MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster10</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.48GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster11</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.39GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.68GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.59MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster12</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.48GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster13</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.39GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.68GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.58MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster14</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.48GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.72GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster15</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.57MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster16</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.47GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.71GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster17</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.56MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster18</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.47GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.71GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster19</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.55MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster20</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.47GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.71GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster21</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.54MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster22</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.47GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.71GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster23</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.54MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster24</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.47GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.71GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster25</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.52MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster26</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.47GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.71GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster27</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.38GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.67GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.51MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster28</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.70GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster29</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.37GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.66GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.50MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster30</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.70GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster31</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.37GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.66GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.50MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster32</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.70GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster33</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.37GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.66GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.49MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster34</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.70GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster35</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.37GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.66GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.47MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster36</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.70GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster37</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.37GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.66GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.46MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster38</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.69GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster39</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.37GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.66GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.46MB   13%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster40</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.46GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.69GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster41</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.36GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.65GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.68MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster42</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.45GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.68GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster43</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.36GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.64GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.68MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster44</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.45GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.68GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster45</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.36GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.64GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.66MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster46</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.45GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.68GB   60%
+2 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster47</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster1-01 vol0       aggr0_cluster1_01 online RW     22.99GB     8.36GB   61%
+cluster1-02 vol0       aggr0_cluster1_02 online RW     22.99GB     8.64GB   60%
+svm1_cluster1 svm1_cluster1_root cluster1_01_SSD_1 online RW 20MB 16.65MB   12%
+svm1_cluster1 vol1     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol2     cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm1_cluster1 vol23    cluster1_01_SSD_1 online RW        10GB     9.50GB    0%
+svm2_cluster1 svm2_cluster1_root cluster1_02_SSD_1 online RW 20MB 17.68MB    6%
+7 entries were displayed.</pre>
+                </div>
+            <div class="cluster-box">
+                <div class="cluster-title">ship-cluster48</div>
+            
+                <div class="command-title">vol show</div>
+                <pre>Vserver   Volume       Aggregate    State      Type       Size  Available Used%
+--------- ------------ ------------ ---------- ---- ---------- ---------- -----
+cluster2-01 vol0       aggr0_cluster2_01 online RW     22.99GB     8.45GB   61%
+cluster2-02 vol0       aggr0_cluster2_02 online RW     22.99GB     8.68GB   60%
+2 entries were displayed.</pre>
+                </div>
+        </body>
+        </html>
+        

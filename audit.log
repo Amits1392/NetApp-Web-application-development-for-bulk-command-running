@@ -1,0 +1,543 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:20:30] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:20:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:20:52] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:20:52] "GET /dashboard HTTP/1.1" 200 -
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_8.7)
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_8.7)
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:21:25] "POST /run HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:21:48] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:21:53] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:21:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:08] "POST /validate_login HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:21] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:22] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:25] "GET /create_user HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:46] "POST /create_user HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:49] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:52] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:22:52] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:23:02] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 08:23:02] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:30:54] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:31:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:31:19] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:31:19] "GET /dashboard HTTP/1.1" 200 -
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_8.7)
+INFO:paramiko.transport:Connected (version 2.0, client OpenSSH_8.7)
+INFO:root:nas-admin ran ['node show'] on ['cluster1', 'cluster2']
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:31:56] "POST /run HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:32:05] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:32:09] "[32mGET /logout HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:32:09] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:32:29] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:32:29] "GET /dashboard HTTP/1.1" 200 -
+INFO:werkzeug:192.168.0.5 - - [17/May/2026 09:32:55] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 09:47:33,136 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 09:47:33,136 - [33mPress CTRL+C to quit[0m
+2026-05-17 09:47:44,564 - 192.168.0.5 - - [17/May/2026 09:47:44] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 09:47:44,578 - 192.168.0.5 - - [17/May/2026 09:47:44] "GET / HTTP/1.1" 200 -
+2026-05-17 09:47:57,779 - 192.168.0.5 - - [17/May/2026 09:47:57] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 09:48:13,860 - 192.168.0.5 - - [17/May/2026 09:48:13] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 09:48:13,869 - 192.168.0.5 - - [17/May/2026 09:48:13] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 09:48:42,172 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 09:48:42,470 - Authentication (publickey) failed.
+2026-05-17 09:48:42,692 - Authentication (publickey) failed.
+2026-05-17 09:48:42,832 - amit executed ['node show'] on ['cluster1']
+2026-05-17 09:48:42,834 - 192.168.0.5 - - [17/May/2026 09:48:42] "POST /run HTTP/1.1" 200 -
+2026-05-17 09:48:48,777 - 192.168.0.5 - - [17/May/2026 09:48:48] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 09:49:08,706 - 192.168.0.5 - - [17/May/2026 09:49:08] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 09:49:18,270 - 192.168.0.5 - - [17/May/2026 09:49:18] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 09:49:18,275 - 192.168.0.5 - - [17/May/2026 09:49:18] "GET / HTTP/1.1" 200 -
+2026-05-17 09:49:23,344 - 192.168.0.5 - - [17/May/2026 09:49:23] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 09:49:23,350 - 192.168.0.5 - - [17/May/2026 09:49:23] "GET / HTTP/1.1" 200 -
+2026-05-17 09:49:36,903 - 192.168.0.5 - - [17/May/2026 09:49:36] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 09:49:36,911 - 192.168.0.5 - - [17/May/2026 09:49:36] "GET / HTTP/1.1" 200 -
+2026-05-17 10:03:54,039 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 10:03:54,039 - [33mPress CTRL+C to quit[0m
+2026-05-17 10:04:05,368 - 192.168.0.5 - - [17/May/2026 10:04:05] "GET / HTTP/1.1" 200 -
+2026-05-17 10:04:07,513 - 192.168.0.5 - - [17/May/2026 10:04:07] "GET / HTTP/1.1" 200 -
+2026-05-17 10:04:07,811 - 192.168.0.5 - - [17/May/2026 10:04:07] "GET / HTTP/1.1" 200 -
+2026-05-17 10:04:10,749 - 192.168.0.5 - - [17/May/2026 10:04:10] "GET / HTTP/1.1" 200 -
+2026-05-17 10:04:13,799 - 192.168.0.5 - - [17/May/2026 10:04:13] "GET / HTTP/1.1" 200 -
+2026-05-17 10:04:22,780 - 192.168.0.5 - - [17/May/2026 10:04:22] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 10:04:22,798 - 192.168.0.5 - - [17/May/2026 10:04:22] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:04:48,334 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:04:48,659 - Authentication (publickey) successful!
+2026-05-17 10:04:56,869 - amit executed ['node run'] on ['cluster1']
+2026-05-17 10:04:56,871 - 192.168.0.5 - - [17/May/2026 10:04:56] "POST /run HTTP/1.1" 200 -
+2026-05-17 10:05:06,025 - 192.168.0.5 - - [17/May/2026 10:05:06] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:08:06,519 - amit executed [] on ['cluster2']
+2026-05-17 10:08:06,520 - 192.168.0.5 - - [17/May/2026 10:08:06] "POST /run HTTP/1.1" 200 -
+2026-05-17 10:08:11,586 - 192.168.0.5 - - [17/May/2026 10:08:11] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 10:08:11,593 - 192.168.0.5 - - [17/May/2026 10:08:11] "GET / HTTP/1.1" 200 -
+2026-05-17 10:12:12,511 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 10:12:12,511 - [33mPress CTRL+C to quit[0m
+2026-05-17 10:13:23,637 - 192.168.0.5 - - [17/May/2026 10:13:23] "GET / HTTP/1.1" 200 -
+2026-05-17 10:13:28,240 - 192.168.0.5 - - [17/May/2026 10:13:28] "GET / HTTP/1.1" 200 -
+2026-05-17 10:13:40,243 - 192.168.0.5 - - [17/May/2026 10:13:40] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 10:13:40,254 - 192.168.0.5 - - [17/May/2026 10:13:40] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:14:50,340 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:14:50,634 - Authentication (publickey) successful!
+2026-05-17 10:14:59,795 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:15:00,109 - Authentication (publickey) successful!
+2026-05-17 10:15:09,333 - amit executed ['node show'] on ['cluster1', 'cluster2']
+2026-05-17 10:15:09,335 - 192.168.0.5 - - [17/May/2026 10:15:09] "POST /run HTTP/1.1" 200 -
+2026-05-17 10:15:17,107 - 192.168.0.5 - - [17/May/2026 10:15:17] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 10:15:17,115 - 192.168.0.5 - - [17/May/2026 10:15:17] "GET / HTTP/1.1" 200 -
+2026-05-17 10:18:19,726 - 192.168.0.5 - - [17/May/2026 10:18:19] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 10:18:30,758 - 192.168.0.5 - - [17/May/2026 10:18:30] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 10:18:30,767 - 192.168.0.5 - - [17/May/2026 10:18:30] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:19:18,827 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:19:19,147 - Authentication (publickey) successful!
+2026-05-17 10:19:28,251 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:19:28,532 - Authentication (publickey) successful!
+2026-05-17 10:19:37,633 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:19:37,916 - Authentication (publickey) successful!
+2026-05-17 10:19:47,020 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:19:47,330 - Authentication (publickey) successful!
+2026-05-17 10:19:56,442 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:19:56,747 - Authentication (publickey) successful!
+2026-05-17 10:20:05,857 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:20:06,151 - Authentication (publickey) successful!
+2026-05-17 10:20:15,257 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:20:15,567 - Authentication (publickey) successful!
+2026-05-17 10:20:24,680 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:20:24,951 - Authentication (publickey) successful!
+2026-05-17 10:20:34,041 - nas-admin executed ['node show', 'vol show', 'aggr show', 'sp show'] on ['cluster1', 'cluster2']
+2026-05-17 10:20:34,042 - 192.168.0.5 - - [17/May/2026 10:20:34] "POST /run HTTP/1.1" 200 -
+2026-05-17 10:22:15,514 - 192.168.0.5 - - [17/May/2026 10:22:15] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:22:37,170 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:22:37,486 - Authentication (publickey) successful!
+2026-05-17 10:22:46,572 - nas-admin executed ['vol show'] on ['cluster1']
+2026-05-17 10:22:46,573 - 192.168.0.5 - - [17/May/2026 10:22:46] "POST /run HTTP/1.1" 200 -
+2026-05-17 10:22:51,669 - 192.168.0.5 - - [17/May/2026 10:22:51] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 10:22:51,676 - 192.168.0.5 - - [17/May/2026 10:22:51] "GET / HTTP/1.1" 200 -
+2026-05-17 10:39:06,926 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 10:39:06,926 - [33mPress CTRL+C to quit[0m
+2026-05-17 10:39:23,736 - 192.168.0.5 - - [17/May/2026 10:39:23] "GET / HTTP/1.1" 200 -
+2026-05-17 10:39:37,970 - 192.168.0.5 - - [17/May/2026 10:39:37] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 10:39:37,981 - 192.168.0.5 - - [17/May/2026 10:39:37] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:39:56,946 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:39:57,242 - Authentication (publickey) successful!
+2026-05-17 10:40:06,364 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 10:40:06,671 - Authentication (publickey) successful!
+2026-05-17 10:40:15,961 - 192.168.0.5 - - [17/May/2026 10:40:15] "POST /run HTTP/1.1" 200 -
+2026-05-17 10:40:25,060 - 192.168.0.5 - - [17/May/2026 10:40:25] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:47:12,625 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 10:47:12,625 - [33mPress CTRL+C to quit[0m
+2026-05-17 10:47:21,911 - 192.168.0.5 - - [17/May/2026 10:47:21] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:47:26,151 - 192.168.0.5 - - [17/May/2026 10:47:26] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 10:47:44,469 - 192.168.0.5 - - [17/May/2026 10:47:44] "GET / HTTP/1.1" 200 -
+2026-05-17 10:47:45,780 - 192.168.0.5 - - [17/May/2026 10:47:45] "GET / HTTP/1.1" 200 -
+2026-05-17 10:47:46,103 - 192.168.0.5 - - [17/May/2026 10:47:46] "GET / HTTP/1.1" 200 -
+2026-05-17 10:48:00,120 - 192.168.0.5 - - [17/May/2026 10:48:00] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 10:48:00,125 - 192.168.0.5 - - [17/May/2026 10:48:00] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 13:32:40,497 - 192.168.0.5 - - [17/May/2026 13:32:40] "[32mPOST /run HTTP/1.1[0m" 302 -
+2026-05-17 13:32:40,504 - 192.168.0.5 - - [17/May/2026 13:32:40] "GET / HTTP/1.1" 200 -
+2026-05-17 13:46:22,647 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 13:46:22,648 - [33mPress CTRL+C to quit[0m
+2026-05-17 13:46:32,393 - 192.168.0.5 - - [17/May/2026 13:46:32] "GET / HTTP/1.1" 200 -
+2026-05-17 13:46:34,951 - 192.168.0.5 - - [17/May/2026 13:46:34] "GET / HTTP/1.1" 200 -
+2026-05-17 13:46:37,558 - 192.168.0.5 - - [17/May/2026 13:46:37] "GET / HTTP/1.1" 200 -
+2026-05-17 13:46:46,946 - 192.168.0.5 - - [17/May/2026 13:46:46] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 13:46:55,643 - 192.168.0.5 - - [17/May/2026 13:46:55] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 13:46:55,653 - 192.168.0.5 - - [17/May/2026 13:46:55] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 13:47:01,173 - 192.168.0.5 - - [17/May/2026 13:47:01] "[32mGET /manage_users HTTP/1.1[0m" 302 -
+2026-05-17 13:47:01,178 - 192.168.0.5 - - [17/May/2026 13:47:01] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 13:47:07,931 - 192.168.0.5 - - [17/May/2026 13:47:07] "[32mGET /manage_users HTTP/1.1[0m" 302 -
+2026-05-17 13:47:07,936 - 192.168.0.5 - - [17/May/2026 13:47:07] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 13:47:16,017 - 192.168.0.5 - - [17/May/2026 13:47:16] "[32mGET /manage_users HTTP/1.1[0m" 302 -
+2026-05-17 13:47:16,022 - 192.168.0.5 - - [17/May/2026 13:47:16] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 13:47:16,998 - 192.168.0.5 - - [17/May/2026 13:47:16] "[32mGET /manage_users HTTP/1.1[0m" 302 -
+2026-05-17 13:47:17,005 - 192.168.0.5 - - [17/May/2026 13:47:17] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 13:59:41,958 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 13:59:41,958 - [33mPress CTRL+C to quit[0m
+2026-05-17 14:00:54,457 - 192.168.0.5 - - [17/May/2026 14:00:54] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:01:13,981 - 192.168.0.5 - - [17/May/2026 14:01:13] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:01:16,212 - 192.168.0.5 - - [17/May/2026 14:01:16] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 14:01:16,221 - 192.168.0.5 - - [17/May/2026 14:01:16] "GET / HTTP/1.1" 200 -
+2026-05-17 14:01:25,811 - 192.168.0.5 - - [17/May/2026 14:01:25] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:01:38,205 - 192.168.0.5 - - [17/May/2026 14:01:38] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:01:38,458 - 192.168.0.5 - - [17/May/2026 14:01:38] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:01:38,469 - 192.168.0.5 - - [17/May/2026 14:01:38] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:03:22,247 - 192.168.0.5 - - [17/May/2026 14:03:22] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 14:03:22,253 - 192.168.0.5 - - [17/May/2026 14:03:22] "GET / HTTP/1.1" 200 -
+2026-05-17 14:03:34,368 - 192.168.0.5 - - [17/May/2026 14:03:34] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:03:42,412 - 192.168.0.5 - - [17/May/2026 14:03:42] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:03:42,422 - 192.168.0.5 - - [17/May/2026 14:03:42] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:04:20,990 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:04:21,288 - Authentication (publickey) successful!
+2026-05-17 14:04:30,497 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:04:30,771 - Authentication (publickey) successful!
+2026-05-17 14:04:41,873 - 192.168.0.5 - - [17/May/2026 14:04:41] "POST /run HTTP/1.1" 200 -
+2026-05-17 14:04:48,325 - 192.168.0.5 - - [17/May/2026 14:04:48] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:09:38,875 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 14:09:38,876 - [33mPress CTRL+C to quit[0m
+2026-05-17 14:09:56,806 - 192.168.0.5 - - [17/May/2026 14:09:56] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:10:00,718 - 192.168.0.5 - - [17/May/2026 14:10:00] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:10:03,788 - 192.168.0.5 - - [17/May/2026 14:10:03] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 14:10:03,798 - 192.168.0.5 - - [17/May/2026 14:10:03] "GET / HTTP/1.1" 200 -
+2026-05-17 14:10:16,085 - 192.168.0.5 - - [17/May/2026 14:10:16] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:10:16,092 - 192.168.0.5 - - [17/May/2026 14:10:16] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:22:02,092 - 192.168.0.5 - - [17/May/2026 14:22:02] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 14:22:02,101 - 192.168.0.5 - - [17/May/2026 14:22:02] "GET / HTTP/1.1" 200 -
+2026-05-17 14:22:10,592 - 192.168.0.5 - - [17/May/2026 14:22:10] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:22:20,044 - 192.168.0.5 - - [17/May/2026 14:22:20] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:22:29,770 - 192.168.0.5 - - [17/May/2026 14:22:29] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:22:29,778 - 192.168.0.5 - - [17/May/2026 14:22:29] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:32:33,986 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 14:32:33,987 - [33mPress CTRL+C to quit[0m
+2026-05-17 14:32:48,596 - 192.168.0.5 - - [17/May/2026 14:32:48] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 14:32:48,610 - 192.168.0.5 - - [17/May/2026 14:32:48] "GET / HTTP/1.1" 200 -
+2026-05-17 14:33:06,655 - 192.168.0.5 - - [17/May/2026 14:33:06] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:33:06,665 - 192.168.0.5 - - [17/May/2026 14:33:06] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:38:16,985 - 192.168.0.5 - - [17/May/2026 14:38:16] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:38:26,597 - 192.168.0.5 - - [17/May/2026 14:38:26] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:38:26,604 - 192.168.0.5 - - [17/May/2026 14:38:26] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:38:36,530 - 192.168.0.5 - - [17/May/2026 14:38:36] "GET /manage_users HTTP/1.1" 200 -
+2026-05-17 14:38:44,089 - 192.168.0.5 - - [17/May/2026 14:38:44] "POST /manage_users HTTP/1.1" 200 -
+2026-05-17 14:38:47,271 - 192.168.0.5 - - [17/May/2026 14:38:47] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:38:52,334 - 192.168.0.5 - - [17/May/2026 14:38:52] "GET /create_user HTTP/1.1" 200 -
+2026-05-17 14:39:01,184 - 192.168.0.5 - - [17/May/2026 14:39:01] "POST /create_user HTTP/1.1" 200 -
+2026-05-17 14:39:03,927 - 192.168.0.5 - - [17/May/2026 14:39:03] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:39:06,954 - 192.168.0.5 - - [17/May/2026 14:39:06] "GET /manage_users HTTP/1.1" 200 -
+2026-05-17 14:39:13,140 - 192.168.0.5 - - [17/May/2026 14:39:13] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:39:51,428 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:39:51,750 - Authentication (publickey) successful!
+2026-05-17 14:40:00,858 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:40:01,177 - Authentication (publickey) successful!
+2026-05-17 14:40:10,281 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:40:10,591 - Authentication (publickey) successful!
+2026-05-17 14:40:19,700 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:40:19,968 - Authentication (publickey) successful!
+2026-05-17 14:40:29,071 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:40:29,370 - Authentication (publickey) successful!
+2026-05-17 14:40:38,466 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:40:38,770 - Authentication (publickey) successful!
+2026-05-17 14:40:47,987 - 192.168.0.5 - - [17/May/2026 14:40:47] "POST /run HTTP/1.1" 200 -
+2026-05-17 14:54:50,561 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 14:54:50,561 - [33mPress CTRL+C to quit[0m
+2026-05-17 14:55:06,143 - 192.168.0.5 - - [17/May/2026 14:55:06] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 14:55:06,155 - 192.168.0.5 - - [17/May/2026 14:55:06] "GET / HTTP/1.1" 200 -
+2026-05-17 14:55:16,708 - 192.168.0.5 - - [17/May/2026 14:55:16] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:55:24,361 - 192.168.0.5 - - [17/May/2026 14:55:24] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 14:55:39,005 - 192.168.0.5 - - [17/May/2026 14:55:39] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:55:39,018 - 192.168.0.5 - - [17/May/2026 14:55:39] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:55:58,411 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:55:58,736 - Authentication (publickey) successful!
+2026-05-17 14:56:07,855 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:56:08,188 - Authentication (publickey) successful!
+2026-05-17 14:56:17,425 - 192.168.0.5 - - [17/May/2026 14:56:17] "POST /run HTTP/1.1" 200 -
+2026-05-17 14:56:20,789 - 192.168.0.5 - - [17/May/2026 14:56:20] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:56:56,839 - 192.168.0.5 - - [17/May/2026 14:56:56] "GET /manage_users HTTP/1.1" 200 -
+2026-05-17 14:57:02,769 - 192.168.0.5 - - [17/May/2026 14:57:02] "POST /manage_users HTTP/1.1" 200 -
+2026-05-17 14:57:05,021 - 192.168.0.5 - - [17/May/2026 14:57:05] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:57:07,281 - 192.168.0.5 - - [17/May/2026 14:57:07] "GET /create_user HTTP/1.1" 200 -
+2026-05-17 14:57:20,698 - 192.168.0.5 - - [17/May/2026 14:57:20] "POST /create_user HTTP/1.1" 200 -
+2026-05-17 14:57:23,245 - 192.168.0.5 - - [17/May/2026 14:57:23] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:57:28,779 - 192.168.0.5 - - [17/May/2026 14:57:28] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-05-17 14:57:28,785 - 192.168.0.5 - - [17/May/2026 14:57:28] "GET / HTTP/1.1" 200 -
+2026-05-17 14:57:43,919 - 192.168.0.5 - - [17/May/2026 14:57:43] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 14:57:43,928 - 192.168.0.5 - - [17/May/2026 14:57:43] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 14:58:06,948 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:58:07,270 - Authentication (publickey) successful!
+2026-05-17 14:58:16,381 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-17 14:58:16,689 - Authentication (publickey) successful!
+2026-05-17 14:58:25,779 - 192.168.0.5 - - [17/May/2026 14:58:25] "POST /run HTTP/1.1" 200 -
+2026-05-17 14:58:28,888 - 192.168.0.5 - - [17/May/2026 14:58:28] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 15:02:32,635 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 15:02:32,635 - [33mPress CTRL+C to quit[0m
+2026-05-17 15:02:43,807 - 192.168.0.5 - - [17/May/2026 15:02:43] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 15:18:37,851 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 15:18:37,851 - [33mPress CTRL+C to quit[0m
+2026-05-17 15:18:49,532 - 192.168.0.5 - - [17/May/2026 15:18:49] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 15:18:49,545 - 192.168.0.5 - - [17/May/2026 15:18:49] "GET / HTTP/1.1" 200 -
+2026-05-17 15:19:12,828 - 192.168.0.5 - - [17/May/2026 15:19:12] "POST /validate_login HTTP/1.1" 200 -
+2026-05-17 15:19:30,366 - 192.168.0.5 - - [17/May/2026 15:19:30] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 15:19:30,379 - 192.168.0.5 - - [17/May/2026 15:19:30] "GET /dashboard HTTP/1.1" 200 -
+2026-05-17 15:24:13,298 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-17 15:24:13,299 - [33mPress CTRL+C to quit[0m
+2026-05-17 15:24:21,696 - 192.168.0.5 - - [17/May/2026 15:24:21] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-17 15:24:21,710 - 192.168.0.5 - - [17/May/2026 15:24:21] "GET / HTTP/1.1" 200 -
+2026-05-17 15:24:37,989 - 192.168.0.5 - - [17/May/2026 15:24:37] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-17 15:24:38,003 - 192.168.0.5 - - [17/May/2026 15:24:38] "GET /dashboard HTTP/1.1" 200 -
+2026-05-18 04:59:11,467 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-18 04:59:11,467 - [33mPress CTRL+C to quit[0m
+2026-05-18 04:59:17,616 - 192.168.0.5 - - [18/May/2026 04:59:17] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2026-05-18 04:59:17,632 - 192.168.0.5 - - [18/May/2026 04:59:17] "GET / HTTP/1.1" 200 -
+2026-05-18 04:59:28,088 - 192.168.0.5 - - [18/May/2026 04:59:28] "POST /validate_login HTTP/1.1" 200 -
+2026-05-18 04:59:38,933 - 192.168.0.5 - - [18/May/2026 04:59:38] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-18 04:59:38,947 - 192.168.0.5 - - [18/May/2026 04:59:38] "GET /dashboard HTTP/1.1" 200 -
+2026-05-18 05:04:58,234 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-18 05:04:58,234 - [33mPress CTRL+C to quit[0m
+2026-05-18 05:05:04,408 - 192.168.0.5 - - [18/May/2026 05:05:04] "GET /dashboard HTTP/1.1" 200 -
+2026-05-18 05:05:07,275 - 192.168.0.5 - - [18/May/2026 05:05:07] "GET /dashboard HTTP/1.1" 200 -
+2026-05-18 05:11:25,122 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-18 05:11:25,122 - [33mPress CTRL+C to quit[0m
+2026-05-18 05:11:32,971 - 192.168.0.5 - - [18/May/2026 05:11:32] "GET /dashboard HTTP/1.1" 200 -
+2026-05-18 05:14:36,974 - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.188:5000
+2026-05-18 05:14:36,974 - [33mPress CTRL+C to quit[0m
+2026-05-18 05:15:05,300 - 192.168.0.5 - - [18/May/2026 05:15:05] "GET / HTTP/1.1" 200 -
+2026-05-18 05:15:17,517 - 192.168.0.5 - - [18/May/2026 05:15:17] "[32mPOST /validate_login HTTP/1.1[0m" 302 -
+2026-05-18 05:15:17,535 - 192.168.0.5 - - [18/May/2026 05:15:17] "GET /dashboard HTTP/1.1" 200 -
+2026-05-18 05:15:45,942 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:15:46,284 - Authentication (publickey) successful!
+2026-05-18 05:15:48,963 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:15:49,278 - Authentication (publickey) successful!
+2026-05-18 05:15:55,572 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:15:55,891 - Authentication (publickey) successful!
+2026-05-18 05:15:58,380 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:15:58,689 - Authentication (publickey) successful!
+2026-05-18 05:16:05,036 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:05,352 - Authentication (publickey) successful!
+2026-05-18 05:16:07,796 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:08,086 - Authentication (publickey) successful!
+2026-05-18 05:16:14,448 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:14,778 - Authentication (publickey) successful!
+2026-05-18 05:16:17,179 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:17,486 - Authentication (publickey) successful!
+2026-05-18 05:16:23,891 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:24,209 - Authentication (publickey) successful!
+2026-05-18 05:16:26,587 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:26,892 - Authentication (publickey) successful!
+2026-05-18 05:16:33,315 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:33,624 - Authentication (publickey) successful!
+2026-05-18 05:16:36,003 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:36,308 - Authentication (publickey) successful!
+2026-05-18 05:16:42,735 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:43,056 - Authentication (publickey) successful!
+2026-05-18 05:16:45,414 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:45,731 - Authentication (publickey) successful!
+2026-05-18 05:16:52,158 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:52,472 - Authentication (publickey) successful!
+2026-05-18 05:16:54,839 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:16:55,148 - Authentication (publickey) successful!
+2026-05-18 05:17:01,577 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:01,881 - Authentication (publickey) successful!
+2026-05-18 05:17:04,251 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:04,574 - Authentication (publickey) successful!
+2026-05-18 05:17:10,986 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:11,290 - Authentication (publickey) successful!
+2026-05-18 05:17:13,680 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:13,989 - Authentication (publickey) successful!
+2026-05-18 05:17:20,392 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:20,731 - Authentication (publickey) successful!
+2026-05-18 05:17:23,094 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:23,377 - Authentication (publickey) successful!
+2026-05-18 05:17:29,837 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:30,153 - Authentication (publickey) successful!
+2026-05-18 05:17:32,483 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:32,791 - Authentication (publickey) successful!
+2026-05-18 05:17:39,263 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:39,583 - Authentication (publickey) successful!
+2026-05-18 05:17:41,894 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:42,166 - Authentication (publickey) successful!
+2026-05-18 05:17:48,690 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:48,995 - Authentication (publickey) successful!
+2026-05-18 05:17:51,283 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:51,553 - Authentication (publickey) successful!
+2026-05-18 05:17:58,097 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:17:58,408 - Authentication (publickey) successful!
+2026-05-18 05:18:00,659 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:00,922 - Authentication (publickey) successful!
+2026-05-18 05:18:07,514 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:07,820 - Authentication (publickey) successful!
+2026-05-18 05:18:10,027 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:10,295 - Authentication (publickey) successful!
+2026-05-18 05:18:16,921 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:17,203 - Authentication (publickey) successful!
+2026-05-18 05:18:19,404 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:19,691 - Authentication (publickey) successful!
+2026-05-18 05:18:26,309 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:26,615 - Authentication (publickey) successful!
+2026-05-18 05:18:28,802 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:29,108 - Authentication (publickey) successful!
+2026-05-18 05:18:35,720 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:36,037 - Authentication (publickey) successful!
+2026-05-18 05:18:38,211 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:38,535 - Authentication (publickey) successful!
+2026-05-18 05:18:45,147 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:45,413 - Authentication (publickey) successful!
+2026-05-18 05:18:47,645 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:47,915 - Authentication (publickey) successful!
+2026-05-18 05:18:54,520 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:54,864 - Authentication (publickey) successful!
+2026-05-18 05:18:57,033 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:18:57,351 - Authentication (publickey) successful!
+2026-05-18 05:19:03,968 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:04,298 - Authentication (publickey) successful!
+2026-05-18 05:19:06,456 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:06,757 - Authentication (publickey) successful!
+2026-05-18 05:19:13,406 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:13,718 - Authentication (publickey) successful!
+2026-05-18 05:19:15,864 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:16,192 - Authentication (publickey) successful!
+2026-05-18 05:19:22,827 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:23,116 - Authentication (publickey) successful!
+2026-05-18 05:19:25,302 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:25,608 - Authentication (publickey) successful!
+2026-05-18 05:19:32,225 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:32,541 - Authentication (publickey) successful!
+2026-05-18 05:19:34,798 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:35,076 - Authentication (publickey) successful!
+2026-05-18 05:19:41,645 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:41,956 - Authentication (publickey) successful!
+2026-05-18 05:19:44,182 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:44,481 - Authentication (publickey) successful!
+2026-05-18 05:19:51,069 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:51,391 - Authentication (publickey) successful!
+2026-05-18 05:19:53,584 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:19:53,860 - Authentication (publickey) successful!
+2026-05-18 05:20:00,497 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:00,751 - Authentication (publickey) successful!
+2026-05-18 05:20:02,960 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:03,279 - Authentication (publickey) successful!
+2026-05-18 05:20:09,850 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:10,146 - Authentication (publickey) successful!
+2026-05-18 05:20:12,381 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:12,698 - Authentication (publickey) successful!
+2026-05-18 05:20:19,255 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:19,526 - Authentication (publickey) successful!
+2026-05-18 05:20:21,801 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:22,110 - Authentication (publickey) successful!
+2026-05-18 05:20:28,634 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:28,922 - Authentication (publickey) successful!
+2026-05-18 05:20:31,212 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:31,527 - Authentication (publickey) successful!
+2026-05-18 05:20:38,033 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:38,339 - Authentication (publickey) successful!
+2026-05-18 05:20:40,634 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:40,942 - Authentication (publickey) successful!
+2026-05-18 05:20:47,444 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:47,757 - Authentication (publickey) successful!
+2026-05-18 05:20:50,053 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:50,337 - Authentication (publickey) successful!
+2026-05-18 05:20:56,866 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:57,182 - Authentication (publickey) successful!
+2026-05-18 05:20:59,436 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:20:59,700 - Authentication (publickey) successful!
+2026-05-18 05:21:06,286 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:06,610 - Authentication (publickey) successful!
+2026-05-18 05:21:08,798 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:09,111 - Authentication (publickey) successful!
+2026-05-18 05:21:15,709 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:16,019 - Authentication (publickey) successful!
+2026-05-18 05:21:18,210 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:18,534 - Authentication (publickey) successful!
+2026-05-18 05:21:25,126 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:25,449 - Authentication (publickey) successful!
+2026-05-18 05:21:27,640 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:27,959 - Authentication (publickey) successful!
+2026-05-18 05:21:34,559 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:34,872 - Authentication (publickey) successful!
+2026-05-18 05:21:37,066 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:37,379 - Authentication (publickey) successful!
+2026-05-18 05:21:43,981 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:44,311 - Authentication (publickey) successful!
+2026-05-18 05:21:46,485 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:46,801 - Authentication (publickey) successful!
+2026-05-18 05:21:53,420 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:53,682 - Authentication (publickey) successful!
+2026-05-18 05:21:55,905 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:21:56,207 - Authentication (publickey) successful!
+2026-05-18 05:22:02,781 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:03,063 - Authentication (publickey) successful!
+2026-05-18 05:22:05,311 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:05,646 - Authentication (publickey) successful!
+2026-05-18 05:22:12,177 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:12,454 - Authentication (publickey) successful!
+2026-05-18 05:22:14,756 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:15,070 - Authentication (publickey) successful!
+2026-05-18 05:22:21,563 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:21,878 - Authentication (publickey) successful!
+2026-05-18 05:22:24,178 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:24,497 - Authentication (publickey) successful!
+2026-05-18 05:22:30,973 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:31,276 - Authentication (publickey) successful!
+2026-05-18 05:22:33,606 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:33,872 - Authentication (publickey) successful!
+2026-05-18 05:22:40,383 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:40,690 - Authentication (publickey) successful!
+2026-05-18 05:22:42,978 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:43,293 - Authentication (publickey) successful!
+2026-05-18 05:22:49,792 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:50,096 - Authentication (publickey) successful!
+2026-05-18 05:22:52,402 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:52,711 - Authentication (publickey) successful!
+2026-05-18 05:22:59,205 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:22:59,524 - Authentication (publickey) successful!
+2026-05-18 05:23:01,816 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:23:02,127 - Authentication (publickey) successful!
+2026-05-18 05:23:08,634 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:23:08,939 - Authentication (publickey) successful!
+2026-05-18 05:23:11,230 - Connected (version 2.0, client OpenSSH_8.7)
+2026-05-18 05:23:11,536 - Authentication (publickey) successful!
+2026-05-18 05:23:18,507 - 192.168.0.5 - - [18/May/2026 05:23:18] "POST /run HTTP/1.1" 200 -
+2026-05-18 05:23:20,729 - 192.168.0.5 - - [18/May/2026 05:23:20] "POST /run HTTP/1.1" 200 -
+2026-05-18 05:23:28,825 - 192.168.0.5 - - [18/May/2026 05:23:28] "GET /dashboard HTTP/1.1" 200 -

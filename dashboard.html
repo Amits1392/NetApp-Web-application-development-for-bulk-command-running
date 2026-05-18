@@ -1,0 +1,274 @@
+<html>
+<head>
+<title>NetApp Automation Portal</title>
+
+<style>
+body{
+    font-family:Arial;
+    margin:0;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a,#2563eb);
+}
+
+.navbar{
+    background:#0f172a;
+    color:white;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.nav-btn{
+    color:white;
+    text-decoration:none;
+    padding:10px 15px;
+    border-radius:8px;
+    font-weight:bold;
+    margin-left:10px;
+}
+
+.create-btn{
+    background:#7c3aed;
+}
+
+.manage-btn{
+    background:#2563eb;
+}
+
+.logout-btn{
+    background:red;
+}
+
+.container{
+    width:90%;
+    margin:30px auto;
+    background:white;
+    padding:30px;
+    border-radius:20px;
+}
+
+.section-title{
+    font-size:24px;
+    color:#1e3a8a;
+    margin-bottom:15px;
+    font-weight:bold;
+}
+
+.cluster-section{
+    background:#eef4ff;
+    padding:20px;
+    border-radius:15px;
+    margin-bottom:25px;
+    max-height:300px;
+    overflow-y:auto;
+}
+
+.cluster-grid{
+    display:grid;
+    grid-template-columns:repeat(8,1fr);
+    gap:10px;
+}
+
+.cluster-item{
+    background:white;
+    padding:8px;
+    border-radius:8px;
+    border:1px solid #ddd;
+    font-size:12px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+textarea{
+    width:100%;
+    height:200px;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+input[type="email"]{
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    margin-bottom:20px;
+}
+
+.run-btn{
+    width:100%;
+    background:green;
+    color:white;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    font-size:20px;
+    font-weight:bold;
+}
+</style>
+
+<script>
+function selectCategory(category){
+    document.querySelectorAll(
+        '.' + category
+    ).forEach(cb => cb.checked = true);
+}
+
+function unselectCategory(category){
+    document.querySelectorAll(
+        '.' + category
+    ).forEach(cb => cb.checked = false);
+}
+</script>
+
+</head>
+
+<body>
+
+<div class="navbar">
+
+<h2>NetApp Command Portal</h2>
+
+<div>
+
+{% if role == "admin" %}
+<a href="/create_user" class="nav-btn create-btn">
+Create User
+</a>
+
+<a href="/manage_users" class="nav-btn manage-btn">
+Manage Users
+</a>
+{% endif %}
+
+<a href="/logout" class="nav-btn logout-btn">
+Logout
+</a>
+
+</div>
+
+</div>
+
+<div class="container">
+
+<form method="post" action="/run">
+
+
+<div class="section-title">
+Shipping Clusters
+</div>
+
+<button type="button" onclick="selectCategory('shipping')">
+Select All Shipping
+</button>
+
+<button type="button" onclick="unselectCategory('shipping')">
+Unselect Shipping
+</button>
+
+<div class="cluster-section">
+<div class="cluster-grid">
+
+{% for cluster in shipping_clusters %}
+<div class="cluster-item">
+<input 
+type="checkbox" 
+name="clusters" 
+value="{{cluster}}"
+class="shipping">
+{{cluster}}
+</div>
+{% endfor %}
+
+</div>
+</div>
+
+<div class="section-title">
+CVO Clusters
+</div>
+
+<button type="button" onclick="selectCategory('cvo')">
+Select All CVO
+</button>
+
+<button type="button" onclick="unselectCategory('cvo')">
+Unselect CVO
+</button>
+
+<div class="cluster-section">
+<div class="cluster-grid">
+
+{% for cluster in cvo_clusters %}
+<div class="cluster-item">
+<input 
+type="checkbox" 
+name="clusters" 
+value="{{cluster}}"
+class="cvo">
+{{cluster}}
+</div>
+{% endfor %}
+
+</div>
+</div>
+
+<div class="section-title">
+Common Clusters
+</div>
+
+<button type="button" onclick="selectCategory('common')">
+Select All Common
+</button>
+
+<button type="button" onclick="unselectCategory('common')">
+Unselect Common
+</button>
+
+<div class="cluster-section">
+<div class="cluster-grid">
+
+{% for cluster in common_clusters %}
+<div class="cluster-item">
+<input 
+type="checkbox" 
+name="clusters" 
+value="{{cluster}}"
+class="common">
+{{cluster}}
+</div>
+{% endfor %}
+
+</div>
+</div>
+
+<div class="section-title">
+Enter Commands
+</div>
+
+<textarea 
+name="commands"
+placeholder="node show
+volume show
+snapmirror show"
+required></textarea>
+
+<div class="section-title">
+Email Report To
+</div>
+
+<input 
+type="email"
+name="email"
+placeholder="Enter email"
+required>
+
+<button class="run-btn">
+Run Commands
+</button>
+
+</form>
+
+</div>
+
+</body>
+</html>
